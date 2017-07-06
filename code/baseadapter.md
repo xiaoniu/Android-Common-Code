@@ -2,6 +2,7 @@
 ```java
 MyBaseAdapter adapter = new MyBaseAdapter(this);
 ```
+
 # 获取数据
 ```java
 private List<Map<String, Object>> getData() {
@@ -25,6 +26,7 @@ private List<Map<String, Object>> getData() {
         return list;
     }
 ```
+
 # 自定义内部类MyBaseAdapter和ViewHolder
 ```java
 class MyBaseAdapter extends BaseAdapter {

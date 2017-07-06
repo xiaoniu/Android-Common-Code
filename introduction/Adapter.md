@@ -1,4 +1,5 @@
 # 直通车
+
 ### [包含一个ImageView，一个TextView和一个Button的item](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/list_item.xml)
 效果如下：
 

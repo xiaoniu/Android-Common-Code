@@ -4,12 +4,14 @@
                 new String[]{"img","title"},
                 new int[]{R.id.img,R.id.title});
 ```
+
 五个参数：
 * **Context context:** 上下文，一般传this
 * **List<? extends Map<String, ?>> data** List<Map<String, Object>>型数据
 * **int resource:** list_item索引，一般传自定义的list_item
 * **String[] from:** map中的key组成的字符串数组 
 * **int[] to:** 自定义list_item中的控件id
+
 # 获取数据
 ```java
     private List<Map<String, Object>> getData() {
