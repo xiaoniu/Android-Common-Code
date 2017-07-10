@@ -7,3 +7,4 @@
 ## 其他
 
 * [Android Studio中的.gitignore文件配置](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/gitignore-code.md)
+* [SharedPreferences](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/sharedpreferences-code.md)
