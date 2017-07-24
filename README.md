@@ -8,3 +8,4 @@
 
 * [Android Studio中的.gitignore文件配置](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/gitignore-code.md)
 * [SharedPreferences](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/sharedpreferences-code.md)
+* [canvas.drawText绘制居中的文字](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/canvas_draw_text_in_center.md)
