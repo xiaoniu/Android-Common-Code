@@ -4,6 +4,8 @@
 
 ## [Adapter部分](https://github.com/xiaoniu/Android-Common-Code/blob/master/introduction/Adapter.md)
 
+## [自定义View部分](https://github.com/xiaoniu/Android-Common-Code/blob/master/introduction/Custom-View.md)
+
 ## 其他
 
 * [Android Studio中的.gitignore文件配置](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/gitignore-code.md)
