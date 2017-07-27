@@ -34,7 +34,7 @@
 ```
  xmlns:myattrs="http://schemas.android.com/apk/res-auto"
 ```
-#在自定义View的构造方法中获得属性值
+# 在自定义View的构造方法中获得属性值
 ```
         //获取自定义属性的值
         TypedArray a = context.getTheme().obtainStyledAttributes(attrs, R.styleable.MyTextView, defStyleAttr, 0);
