@@ -2,9 +2,9 @@
 
 作为一个程序员，开发时难免会碰到一些记得不太牢的知识点，背的话又有点费劲，背完一段时间不用又会忘掉，每次去网上查的话，又要经过一番信息筛选，浪费时间，所以就把常用的代码都总结一下，下次要用的时候直接就拿出来复制粘贴再做修改就可以了。这个项目也将会持续更新。
 
-## [Adapter部分](https://github.com/xiaoniu/Android-Common-Code/blob/master/introduction/Adapter.md)
+## [一、Adapter部分](https://github.com/xiaoniu/Android-Common-Code/blob/master/introduction/Adapter.md)
 
-### [包含一个ImageView，一个TextView和一个Button的item](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/list_item.xml)
+### [1、包含一个ImageView，一个TextView和一个Button的item](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/list_item.xml)
 效果如下：
 
 ![](http://upload-images.jianshu.io/upload_images/1849253-8d12325383f3fa16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
@@ -21,15 +21,15 @@ ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.si
 * **int resource:** list_item索引，一般传android.R.layout.simple_list_item_1
 * **List<String> objects或String[] objects:** 数据 
 
-### [SimpleAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/simpleadapter.md)
+### [2、SimpleAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/simpleadapter.md)
 
-### [BaseAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/baseadapter.md)
+### [3、BaseAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/baseadapter.md)
 
-## 自定义View部分
+## 二、自定义View部分
 
-### [自定义属性](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/custom-attrs.md)
+### [1、自定义属性](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/custom-attrs.md)
 
-## 其他
+## 三、其他
 
 * [Android Studio中的.gitignore文件配置](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/gitignore-code.md)
 * [SharedPreferences](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/sharedpreferences-code.md)
