@@ -9,7 +9,7 @@
 
 ![](http://upload-images.jianshu.io/upload_images/1849253-8d12325383f3fa16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### ArrayAdapter，比较简单，直接给出
+### 2、ArrayAdapter，比较简单，直接给出
 
 ```java
 ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,getData());
@@ -21,9 +21,9 @@ ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.si
 * **int resource:** list_item索引，一般传android.R.layout.simple_list_item_1
 * **List<String> objects或String[] objects:** 数据 
 
-### [2、SimpleAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/simpleadapter.md)
+### [3、SimpleAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/simpleadapter.md)
 
-### [3、BaseAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/baseadapter.md)
+### [4、BaseAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/baseadapter.md)
 
 ## 二、自定义View部分
 
