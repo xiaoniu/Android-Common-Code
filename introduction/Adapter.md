@@ -1,23 +1,3 @@
-# 直通车
-
-### [包含一个ImageView，一个TextView和一个Button的item](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/list_item.xml)
-效果如下：
-
-![](http://upload-images.jianshu.io/upload_images/1849253-8d12325383f3fa16.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-### ArrayAdapter，比较简单，直接给出
-```java
-ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,android.R.layout.simple_list_item_1,getData());
-```
-三个参数：
-* **Context context:** 上下文，一般传this
-* **int resource:** list_item索引，一般传android.R.layout.simple_list_item_1
-* **List<String> objects或String[] objects:** 数据 
-
-### [SimpleAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/simpleadapter.md)
-
-### [BaseAdapter](https://github.com/xiaoniu/Android-Common-Code/blob/master/code/baseadapter.md)
-    
-
 # Adapter介绍
 Adapter是连接后端数据和前端显示的适配器接口，是数据和UI（View）之间一个重要的纽带。在常见的View(List View,Grid View)等地方都需要用到Adapter。如下图直观的表达了Data、Adapter、View三者的关系：
 
